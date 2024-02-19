@@ -1,0 +1,108 @@
+/* Write your CSS here*/
+.digital-timer-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-timer-elapsed-background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  padding: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.timer-numbers {
+  color: #00d9f5;
+  font-size: 30px;
+}
+
+.states-of-timer {
+  font-size: 15px;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.play-button {
+  display: flex;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.play-button-style {
+  width: 50%;
+}
+
+.set-timer-container {
+  margin-left: 70px;
+  text-align: center;
+}
+
+.count-button-style {
+  background-image: linear-gradient(to right, #27d555, #00d9f5);
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  color: #0f172a;
+  padding: 7px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.set-timer-buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.set-timer-heading {
+  font-size: 10px;
+}
+
+h1 {
+  color: #1e293b;
+}
